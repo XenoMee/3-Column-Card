@@ -128,14 +128,14 @@ img{
     }
 }
 
-@media (min-width: 700px) and (max-width: 920px){
+@media (min-width: 700px) and (max-width: 919px){
 
     .card{
         width: 50%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 700px){
+@media (min-width: 400px) and (max-width: 699px){
 
     .container{
         flex-direction: column;
