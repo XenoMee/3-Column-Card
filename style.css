@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
