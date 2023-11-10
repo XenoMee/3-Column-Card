@@ -28,7 +28,7 @@ h2{
     height: 65%;
 }
 
-#sedans .learnMore{
+#sedans .btn{
     color: hsl(31, 77%, 52%);;
 }
 
@@ -38,7 +38,7 @@ h2{
     height: 65%;
 }
 
-#suvs .learnMore{
+#suvs .btn{
     color: hsl(184, 100%, 22%);;
 }
 
@@ -48,11 +48,11 @@ h2{
     height: 65%;
 }
 
-#luxury .learnMore{
+#luxury .btn{
     color: hsl(179, 100%, 13%);
 }
 
-.learnMore{
+.btn{
     background-color: hsl(0, 0%, 95%);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
