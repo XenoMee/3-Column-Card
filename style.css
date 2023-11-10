@@ -86,7 +86,7 @@ img{
     border-color: hsl(0, 0%, 95%) !important;
 }
 
-@media (max-width: 375px){
+@media (max-width: 399px){
     .container{
         flex-direction: column;
         margin: 100% 11%;
@@ -119,4 +119,49 @@ img{
         margin-bottom: 10px;
     }
 
+}
+
+@media (min-width: 920px) and (max-width: 1225px){
+
+    .card{
+        width: 20%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 920px){
+
+    .card{
+        width: 50%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 700px){
+
+    .container{
+        flex-direction: column;
+        margin: 65% 0%;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    #sedans{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    #luxury{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .btn{
+        position:relative;
+        bottom: 10px;
+    }
+
+    .attribution{
+        margin-bottom: 10px;
+    }
 }
