@@ -123,4 +123,10 @@ p{
         position: absolute;
         bottom: 3rem;
     }
+
+    .btn:active{
+        background-color: transparent;
+        border: 0.15rem solid hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+    }
 }
