@@ -3,6 +3,16 @@ body{
     background-color: hsl(0, 0%, 95%);
 }
 
+h2, .btn{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 .container{
     height: 192vh;
     display: flex;
