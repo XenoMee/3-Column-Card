@@ -35,6 +35,8 @@ p{
 .sedan{
     background-color: hsl(31, 77%, 52%);
     margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .suv{
@@ -43,6 +45,12 @@ p{
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn{
+    
 }
 
 .attribution { 
