@@ -18,7 +18,7 @@ p{
 }
 
 .container{
-    height: 192vh;
+    height: 170vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -28,7 +28,7 @@ p{
 
 .card{
     max-width: 20rem;
-    height: 25rem;
+    height: 22rem;
     padding: 2.5rem 2rem;
 }
 
@@ -39,8 +39,16 @@ p{
     border-top-right-radius: 1rem;
 }
 
+.sedan .btn{
+    color: hsl(31, 77%, 52%);
+}
+
 .suv{
     background-color: hsl(184, 100%, 22%);
+}
+
+.suv .btn{
+    color: hsl(184, 100%, 22%);
 }
 
 .luxury{
@@ -49,8 +57,18 @@ p{
     border-bottom-right-radius: 1rem;
 }
 
+.luxury .btn{
+    color: hsl(179, 100%, 13%);
+}
+
 .btn{
-    
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 2rem;
+    padding: 1em 2em;
+    margin-top: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
 }
 
 .attribution { 
