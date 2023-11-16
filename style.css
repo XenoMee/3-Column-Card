@@ -26,6 +26,10 @@ p{
     text-align: start;
 }
 
+.column-card{
+    margin-top: 3rem;
+}
+
 .card{
     max-width: 20rem;
     height: 22rem;
@@ -78,4 +82,45 @@ p{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 652px) {
+    .container{
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .column-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
+
+    .card{
+        height: 28rem;
+        max-width: 14rem;
+        position: relative;
+    }
+
+    h2{
+        font-size: 2.3rem;
+    }
+
+    .sedan{
+
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 1rem;
+        margin-top: 0rem;
+    }
+
+    .luxury{
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .btn{
+        position: absolute;
+        bottom: 3rem;
+    }
 }
