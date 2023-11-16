@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    height: 192vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+}
+
+.card{
+    max-width: 20rem;
+    height: 25rem;
+    padding: 2.5rem 2rem;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 1rem;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution { 
+    padding: 0.8rem;
+    font-size: 0.68rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
