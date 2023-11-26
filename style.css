@@ -40,7 +40,7 @@ img{
     padding: 2.5rem 2rem;
 }
 
-.sedan{
+.sedan-card{
     background-color: hsl(31, 77%, 52%);
     margin-top: 1rem;
     border-top-left-radius: 1rem;
@@ -51,7 +51,7 @@ img{
     color: hsl(31, 77%, 52%);
 }
 
-.suv{
+.suv-card{
     background-color: hsl(184, 100%, 22%);
 }
 
@@ -59,7 +59,7 @@ img{
     color: hsl(184, 100%, 22%);
 }
 
-.luxury{
+.luxury-card{
     background-color: hsl(179, 100%, 13%);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
