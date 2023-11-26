@@ -74,6 +74,8 @@ img{
 }
 
 .btn{
+    position: relative;
+    top: 2rem;
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 2rem;
