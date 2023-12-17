@@ -1,3 +1,7 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     background-color: hsl(0, 0%, 95%);
@@ -24,7 +28,7 @@ img{
 }
 
 .container{
-    height: 165svh;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
