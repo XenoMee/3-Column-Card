@@ -11,13 +11,14 @@ body{
 }
 
 .content{
-    height: 100svh;
+    min-height: 100svh;
     display: grid;
     place-items: center;
 }
 
 .container{
     width: 21rem;
+    margin: 3rem 0rem;
 }
 
 .card{
@@ -25,12 +26,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.5rem;
-    padding: 2.5rem;
-}
-
-.card p {
-    flex-grow: 1;
+    padding: 2rem 2.5rem;
 }
 
 .sedan-card{
@@ -39,12 +35,29 @@ body{
     border-top-right-radius: 1rem;
 }
 
+.card-title{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2rem;
+}
+
+.card-description{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.car-icon{
+    max-width: 100%;
+    object-fit: cover;
+}
+
 .btn{
+    display: block;
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 2rem;
     padding: 1em 2em;
     font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
     font-size: 0.9rem;
     font-weight: 700;
 }
@@ -71,18 +84,13 @@ body{
     color: hsl(179, 100%, 13%);
 }
 
-footer{
-    margin-bottom: 1rem;
-}
-
 .attribution { 
-    color: black;
-    font-size: 0.8rem; 
+    color: initial;
+    font-size: 0.9rem; 
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%);
-    text-decoration: none; 
+    color: hsl(228, 45%, 44%); 
 }
 
 @media (min-width: 54.5em) {
