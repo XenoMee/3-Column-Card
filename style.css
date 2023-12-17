@@ -106,10 +106,24 @@ body{
         margin: 0;
     }
 
+    .sedan-card{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .luxury-card{
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+    }
+
+    .card-description{
+        font-size: 0.84rem;
+        margin-bottom: 3rem;
+    }
 
     .btn:active{
         background-color: transparent;
-        border: 0.15em solid hsl(0, 0%, 95%);
-        color: hsl(0, 0%, 95%);
+        border: 0.15rem solid hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 95%, 0.9);
     }
 }
