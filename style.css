@@ -54,7 +54,7 @@ body{
 .btn{
     display: block;
     background-color: hsl(0, 0%, 95%);
-    border: none;
+    border: 0.15rem solid transparent;
     border-radius: 2rem;
     padding: 1em 2.5em;
     font-family: 'Lexend Deca', sans-serif;
