@@ -1,129 +1,131 @@
-*, *::after, *::before{
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-    margin: 0;
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 95%);
-    line-height: 1.5;
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  line-height: 1.5;
 }
 
-.content{
-    min-height: 100svh;
-    display: grid;
-    place-items: center;
+.content {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
 }
 
-.container{
-    width: 20rem;
-    margin: 3rem 0rem;
+.container {
+  width: 20rem;
+  margin: 3rem 0rem;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.5rem;
-    padding: 2.5rem;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2.5rem;
 }
 
-.sedan-card{
-    background-color: hsl(31, 77%, 52%);
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+.sedan-card {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
-.card-title{
-    font-family: 'Big Shoulders Display', sans-serif;
-    font-size: 2.2rem;
+.card-title {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.2rem;
 }
 
-.card-description{
-    font-family: 'Lexend Deca', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
+.card-description {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
-.car-icon{
-    max-width: 100%;
-    object-fit: cover;
+.car-icon {
+  max-width: 100%;
+  object-fit: cover;
 }
 
-.btn{
-    display: block;
-    background-color: hsl(0, 0%, 95%);
-    border: 0.15rem solid transparent;
-    border-radius: 2rem;
-    padding: 1em 2.5em;
-    font-family: 'Lexend Deca', sans-serif;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 700;
+.btn {
+  display: block;
+  background-color: hsl(0, 0%, 95%);
+  border: 0.15rem solid transparent;
+  border-radius: 2rem;
+  padding: 1em 2.5em;
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
-.sedan-card .btn{
-    color: hsla(31, 77%, 52%, 0.8);
+.sedan-card .btn {
+  color: hsla(31, 77%, 52%, 0.8);
 }
 
-.suv-card{
-    background-color: hsl(184, 100%, 22%);
+.suv-card {
+  background-color: hsl(184, 100%, 22%);
 }
 
-.suv-card .btn{
-    color: hsla(184, 100%, 22%, 0.8);
+.suv-card .btn {
+  color: hsla(184, 100%, 22%, 0.8);
 }
 
-.luxury-card{
-    background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+.luxury-card {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
-.luxury-card .btn{
-    color: hsla(179, 100%, 13%, 0.8);
+.luxury-card .btn {
+  color: hsla(179, 100%, 13%, 0.8);
 }
 
-.attribution { 
-    color: initial;
-    font-size: 0.9rem; 
-    text-align: center; 
+.attribution {
+  color: initial;
+  font-size: 0.9rem;
+  text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 50rem) {
-    .content{
-        min-height: 100vh;
-    }
+  .content {
+    min-height: 100vh;
+  }
 
-    .container{
-        display: flex;
-        flex-direction: row;
-        width: 50rem;
-        margin: 0;
-    }
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 50rem;
+    margin: 0;
+  }
 
-    .sedan-card{
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 1rem;
-    }
+  .sedan-card {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+  }
 
-    .luxury-card{
-        border-top-right-radius: 1rem;
-        border-bottom-left-radius: 0;
-    }
+  .luxury-card {
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+  }
 
-    .card-description{
-        font-size: 0.84rem;
-        margin-bottom: 3rem;
-    }
+  .card-description {
+    font-size: 0.84rem;
+    margin-bottom: 3rem;
+  }
 
-    .btn:active{
-        background-color: transparent;
-        border: 0.15rem solid hsl(0, 0%, 95%);
-        color: hsla(0, 0%, 95%, 0.9);
-    }
+  .btn:active {
+    background-color: transparent;
+    border: 0.15rem solid hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 95%, 0.9);
+  }
 }
