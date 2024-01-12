@@ -60,6 +60,7 @@ body {
 .card__column{
   --content-spacing: 1rem;
   --content-padding: 2rem;
+  --button-br:2rem;
 
   padding: var(--content-padding);
   display: grid;
@@ -75,15 +76,13 @@ body {
 }
 
 .btn {
-  display: block;
-  background-color: hsl(0, 0%, 95%);
-  border: 0.15rem solid transparent;
-  border-radius: 2rem;
+  display: inline-block;
+  background-color: var(--clr-neutral-100);
+  border-radius: var(--button-br);
   padding: 1em 2.5em;
-  font-family: "Lexend Deca", sans-serif;
   text-decoration: none;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: var(--fw-bold)
 }
 
 .sedan-card .btn {
