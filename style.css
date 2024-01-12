@@ -58,6 +58,7 @@ body {
 
 /* Card styling */
 .card{
+  display: grid;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -72,9 +73,10 @@ body {
 
 .card__content{
   display: grid;
+  gap: var(--content-spacing);
   justify-items: start;
   align-items: center;
-  gap: var(--content-spacing);
+  height: 100%;
 }
 
 .card__content[data-icon="sedan"]::before {
@@ -144,24 +146,22 @@ body {
 
 @media (min-width: 50em) {
 
-  .sedan-card {
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 1rem;
+  .card{
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 50rem;
   }
 
-  .luxury-card {
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 0;
+  .card__column{
+    --content-padding: 2.5rem;
   }
 
-  .card-description {
-    font-size: 0.84rem;
-    margin-bottom: 3rem;
+  .btn{
+    margin-top: 4rem;
   }
 
-  .btn:active {
+  .btn:is(:hover, :focus) {
     background-color: transparent;
-    border: 0.15rem solid hsl(0, 0%, 95%);
+    outline: 0.15rem solid hsl(0, 0%, 95%);
     color: hsla(0, 0%, 95%, 0.9);
   }
 }
