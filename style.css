@@ -80,10 +80,12 @@ body {
 
 .card__title {
   font-family: var(--ff-accent);
+  font-size: 2rem;
 }
 
 .card__description {
   color: var(--clr-neutral-200);
+  width: 26ch;
 }
 
 .btn {
