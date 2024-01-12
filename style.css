@@ -68,6 +68,7 @@ body {
   --content-padding: 3rem;
   --button-br:2rem;
 
+  padding: var(--content-padding);
 }
 
 .card__content{
@@ -76,7 +77,6 @@ body {
   justify-items: start;
   align-items: center;
   height: 100%;
-  padding: var(--content-padding);
 }
 
 .card__content[data-icon="sedan"]::before {
@@ -148,11 +148,11 @@ body {
 
   .card{
     grid-template-columns: repeat(3, 1fr);
-    max-width: 50rem;
+    max-width: 55rem;
   }
 
   .card__column{
-    --content-padding: 2.5rem;
+    --content-padding: 2.6rem;
   }
 
   .btn{
