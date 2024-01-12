@@ -80,7 +80,6 @@ body {
 .card__content[data-icon="sedan"]::before {
   content: '';
   background-image: url("./images/icon-sedans.svg");
-  background-repeat: no-repeat;
   width: 64px;
   height: 40px;
 }
@@ -88,7 +87,6 @@ body {
 .card__content[data-icon="suv"]::before {
   content: '';
   background-image: url("./images/icon-suvs.svg");
-  background-repeat: no-repeat;
   width: 64px;
   height: 40px;
 }
@@ -96,7 +94,6 @@ body {
 .card__content[data-icon="luxury"]::before {
   content: '';
   background-image: url("./images/icon-luxury.svg");
-  background-repeat: no-repeat;
   width: 64px;
   height: 40px;
 }
@@ -104,6 +101,7 @@ body {
 .card__title {
   font-family: var(--ff-accent);
   font-size: 2rem;
+  margin-top: .5rem;
 }
 
 .card__description {
