@@ -65,10 +65,9 @@ body {
 
 .card__column{
   --content-spacing: 1.5rem;
-  --content-padding: 2rem;
+  --content-padding: 3rem;
   --button-br:2rem;
 
-  padding: var(--content-padding);
 }
 
 .card__content{
@@ -77,6 +76,7 @@ body {
   justify-items: start;
   align-items: center;
   height: 100%;
+  padding: var(--content-padding);
 }
 
 .card__content[data-icon="sedan"]::before {
