@@ -78,7 +78,7 @@ body {
   gap: var(--content-spacing);
 }
 
-.card-title {
+.card__title {
   font-family: var(--ff-accent);
 }
 
