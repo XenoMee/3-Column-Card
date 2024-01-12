@@ -58,12 +58,17 @@ body {
 /* Card styling */
 
 .card__column{
-  --content-spacing: 1rem;
+  --content-spacing: 1.5rem;
   --content-padding: 2rem;
   --button-br:2rem;
 
   padding: var(--content-padding);
+}
+
+.card__content{
   display: grid;
+  justify-items: start;
+  align-items: center;
   gap: var(--content-spacing);
 }
 
