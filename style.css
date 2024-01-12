@@ -49,6 +49,7 @@ body {
   font-weight: var(--fw-regular);
   font-size: var(--fs-default);
   line-height: 1.5;
+  padding: 1.5rem;
 
   min-height: 100svh;
   display: grid;
@@ -114,17 +115,7 @@ body {
   color: hsla(179, 100%, 13%, 0.8);
 }
 
-@media (min-width: 50rem) {
-  .content {
-    min-height: 100vh;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    width: 50rem;
-    margin: 0;
-  }
+@media (min-width: 50em) {
 
   .sedan-card {
     border-top-right-radius: 0;
