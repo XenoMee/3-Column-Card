@@ -87,15 +87,6 @@ body {
   color: hsla(179, 100%, 13%, 0.8);
 }
 
-.attribution {
-  color: initial;
-  font-size: 0.9rem;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 50rem) {
   .content {
     min-height: 100vh;
