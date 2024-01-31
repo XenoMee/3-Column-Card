@@ -167,7 +167,7 @@ body {
   width: 1px;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 45em) {
   .car-list {
     grid-template-columns: repeat(3, 1fr);
     max-width: 55rem;
