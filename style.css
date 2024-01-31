@@ -68,7 +68,7 @@ body {
 }
 
 /* Card styling */
-.card {
+.cars_card {
   display: grid;
   border-radius: 0.5rem;
   overflow: hidden;
