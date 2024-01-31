@@ -95,6 +95,7 @@ body {
 
 .car-list__item[data-icon="sedan"]::before {
   content: "";
+  display: block;
   background-image: url("./images/icon-sedans.svg");
   width: 64px;
   height: 40px;
@@ -102,6 +103,7 @@ body {
 
 .car-list__item[data-icon="suv"]::before {
   content: "";
+  display: block;
   background-image: url("./images/icon-suvs.svg");
   width: 64px;
   height: 40px;
@@ -109,6 +111,7 @@ body {
 
 .car-list__item[data-icon="luxury"]::before {
   content: "";
+  display: block;
   background-image: url("./images/icon-luxury.svg");
   width: 64px;
   height: 40px;
