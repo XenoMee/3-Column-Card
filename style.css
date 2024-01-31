@@ -68,13 +68,13 @@ body {
 }
 
 /* Card styling */
-.cars_card {
+.car-list {
   display: grid;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
-.card__column {
+.car-list__item {
   --content-spacing: 1.5rem;
   --content-padding: 3rem;
   --button-br: 2rem;
@@ -90,34 +90,34 @@ body {
   height: 100%;
 }
 
-.card__content[data-icon="sedan"]::before {
+.car-list__item[data-icon="sedan"]::before {
   content: "";
   background-image: url("./images/icon-sedans.svg");
   width: 64px;
   height: 40px;
 }
 
-.card__content[data-icon="suv"]::before {
+.car-list__item[data-icon="suv"]::before {
   content: "";
   background-image: url("./images/icon-suvs.svg");
   width: 64px;
   height: 40px;
 }
 
-.card__content[data-icon="luxury"]::before {
+.car-list__item[data-icon="luxury"]::before {
   content: "";
   background-image: url("./images/icon-luxury.svg");
   width: 64px;
   height: 40px;
 }
 
-.card__title {
+.car-type {
   font-family: var(--ff-accent);
   font-size: 2.2rem;
   margin-top: 0.5rem;
 }
 
-.card__description {
+.car-description {
   color: var(--clr-neutral-200);
 }
 
@@ -131,15 +131,15 @@ body {
 }
 
 /* Modifier classes */
-.card__column--sedan {
+.car-list__item--sedan {
   background-color: hsl(31, 77%, 52%);
 }
 
-.card__column--suv {
+.car-list__item--suv {
   background-color: hsl(184, 100%, 22%);
 }
 
-.card__column--luxury {
+.car-list__item--luxury {
   background-color: hsl(179, 100%, 13%);
 }
 
@@ -166,12 +166,12 @@ body {
 }
 
 @media (min-width: 50em) {
-  .card {
+  .car-list {
     grid-template-columns: repeat(3, 1fr);
     max-width: 55rem;
   }
 
-  .card__column {
+  .car-list__item {
     --content-padding: 2.6rem;
   }
 
